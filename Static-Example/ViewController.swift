@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Static
 
 class ViewController: UIViewController, UITableViewDataSource {
 
@@ -15,8 +16,18 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
-        tableView.dataSource = self
+        // Toggle this to verify that the is configured correctly
+        let useStatic = true
+        if useStatic {
+            let _ = DataSource(tableView: tableView, sections: [
+                Section(rows: [
+                    Row(text: "Hello I'm a Row")
+                    ])
+                ])
+        } else {
+            tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+            tableView.dataSource = self
+        }
     }
 
     // MARK: UITableViewDataSource

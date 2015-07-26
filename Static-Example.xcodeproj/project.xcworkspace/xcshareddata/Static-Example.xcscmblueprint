@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "442DA66C3F1DDDB723D1375FC72A6B2E82CCFD86",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "442DA66C3F1DDDB723D1375FC72A6B2E82CCFD86" : 0,
+    "72C031073F0E7401AEDA6D1B9D7F04ED931ECBFE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A95CA260-136E-4543-B3E5-BCC7779A887A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "442DA66C3F1DDDB723D1375FC72A6B2E82CCFD86" : "Static-Example\/",
+    "72C031073F0E7401AEDA6D1B9D7F04ED931ECBFE" : "Static-Example\/Static\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Static-Example",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Static-Example.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mokagio\/Static-Example.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "442DA66C3F1DDDB723D1375FC72A6B2E82CCFD86"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:venmo\/Static.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "72C031073F0E7401AEDA6D1B9D7F04ED931ECBFE"
+    }
+  ]
+}
